@@ -1116,3 +1116,286 @@ h3 {
     transition: none;
   }
 }
+
+
+/* Farmaco Scan v3: logo ufficiale e sezione video */
+.brand-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 850;
+  letter-spacing: -0.03em;
+  color: var(--text);
+}
+
+.brand-lockup img {
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.brand-lockup span {
+  font-size: 1.32rem;
+  line-height: 1;
+}
+
+.brand img {
+  width: 52px;
+  height: 52px;
+}
+
+.hero-logo-lockup {
+  display: inline-flex;
+  width: auto;
+  margin-bottom: 24px;
+  padding: 8px 14px 8px 8px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: rgba(255,255,255,.82);
+  box-shadow: 0 10px 28px rgba(22,70,43,.06);
+}
+
+.hero-logo-lockup img {
+  width: 68px;
+  height: 68px;
+}
+
+.hero-logo-lockup span {
+  font-size: 1.55rem;
+}
+
+.mini-brand-logo {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  flex: 0 0 38px;
+}
+
+.floating-brand {
+  position: absolute;
+  z-index: 3;
+  object-fit: contain;
+  filter: drop-shadow(0 15px 20px rgba(15,93,53,.22));
+}
+
+.floating-brand-one {
+  width: 78px;
+  height: 78px;
+  left: 2%;
+  top: 14%;
+  transform: rotate(-8deg);
+}
+
+.floating-brand-two {
+  width: 54px;
+  height: 54px;
+  right: 3%;
+  bottom: 18%;
+  transform: rotate(9deg);
+}
+
+.caption-brand-logo {
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+  object-fit: contain;
+}
+
+.source-brand {
+  white-space: nowrap;
+}
+
+.source-brand img {
+  width: 70px;
+  height: 70px;
+}
+
+.card-brand-logo {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  object-fit: contain;
+  opacity: .93;
+}
+
+.section-logo {
+  width: max-content;
+  max-width: 100%;
+  padding: 8px 14px 8px 8px;
+}
+
+.section-logo img {
+  width: 58px;
+  height: 58px;
+}
+
+.section-logo span {
+  font-size: 1.2rem;
+}
+
+.compact-logo {
+  width: max-content;
+}
+
+.orbit-brand-one {
+  width: 70px;
+  height: 70px;
+  left: 7%;
+  bottom: 18%;
+  transform: rotate(-9deg);
+}
+
+.orbit-brand-two {
+  width: 50px;
+  height: 50px;
+  right: 8%;
+  top: 16%;
+  transform: rotate(8deg);
+}
+
+.screen-brand-ribbon img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.video-section {
+  background: var(--surface-soft);
+}
+
+.video-heading {
+  margin-bottom: 38px;
+}
+
+.video-player-card {
+  width: min(520px, 100%);
+  margin: 0 auto;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  border: 1px solid #b9d9c6;
+  border-radius: 30px;
+  background:
+    radial-gradient(circle at 80% 18%, rgba(23, 131, 74, 0.13), transparent 30%),
+    linear-gradient(145deg, #eff9f3, #ffffff);
+  box-shadow: var(--soft-shadow);
+}
+
+.video-frame {
+  width: min(360px, 100%);
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
+  border: 8px solid #111813;
+  border-radius: 32px;
+  background: #111813;
+  box-shadow: 0 22px 50px rgba(15, 93, 53, 0.18);
+}
+
+.video-frame iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+}
+
+.youtube-link {
+  padding: 11px 18px;
+  border-radius: 12px;
+  color: #fff;
+  background: var(--green);
+  font-weight: 750;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.youtube-link:hover {
+  transform: translateY(-2px);
+  background: var(--green-dark);
+}
+
+.disclaimer-brand-logo {
+  width: 76px;
+  height: 76px;
+  object-fit: contain;
+  flex: 0 0 76px;
+}
+
+.footer-logo img {
+  width: 64px;
+  height: 64px;
+}
+
+.footer-logo span {
+  font-size: 1.35rem;
+}
+
+@media (max-width: 900px) {
+  nav a:not(.nav-download) {
+    display: none;
+  }
+
+  .hero-logo-lockup {
+    display: inline-flex;
+  }
+
+  .source-band-content {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 28px 0;
+  }
+
+  .source-band-content p {
+    padding-left: 0;
+    border-left: 0;
+  }
+}
+
+@media (max-width: 620px) {
+  .brand-lockup span {
+    font-size: 1.1rem;
+  }
+
+  .brand img {
+    width: 44px;
+    height: 44px;
+  }
+
+  .hero-logo-lockup img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .hero-logo-lockup span {
+    font-size: 1.28rem;
+  }
+
+  .floating-brand-one {
+    left: -2%;
+  }
+
+  .floating-brand-two {
+    right: -1%;
+  }
+
+  .video-player-card {
+    padding: 14px;
+    border-radius: 22px;
+  }
+
+  .video-frame {
+    border-width: 6px;
+    border-radius: 26px;
+  }
+}
+
+/* Il simbolo grafico ufficiale sostituisce le vecchie croci decorative. */
+.hero::after,
+.feature-card::after,
+.leaflet-section::before,
+.screenshots-section::after {
+  content: none;
+}

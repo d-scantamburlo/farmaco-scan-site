@@ -1,0 +1,1 @@
+Spazio riservato al video dimostrativo. Quando il video definitivo sarà pronto, il riquadro della pagina potrà essere sostituito con un elemento <video> o con un video YouTube incorporato.
