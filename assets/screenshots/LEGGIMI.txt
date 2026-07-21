@@ -1,0 +1,5 @@
+Inserisci qui gli screenshot dell'app.
+Nomi suggeriti:
+- home.png
+- ricerca.png
+- risultati.png
