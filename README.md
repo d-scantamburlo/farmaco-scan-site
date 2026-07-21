@@ -1,35 +1,32 @@
 # Farmaco Scan - sito GitHub Pages
 
-## Pubblicazione rapida
+Questa versione rafforza il messaggio principale dell'app: la ricerca del medicinale permette di consultare le informazioni disponibili nel relativo foglietto illustrativo.
 
-1. Apri il repository `farmaco-scan-site` su GitHub.
+## Aggiornamento rapido su GitHub
+
+1. Apri il repository `farmaco-scan-site`.
 2. Seleziona **Add file > Upload files**.
-3. Carica nella root del repository:
-   - `index.html`
-   - `style.css`
-   - `favicon.svg`
-   - la cartella `assets`
-4. Conferma con **Commit changes**.
-5. Vai in **Settings > Pages**.
-6. In **Build and deployment**, scegli:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/ (root)`
-7. Salva.
+3. Trascina tutto il contenuto di questo pacchetto nella root del repository.
+4. Conferma la sostituzione dei file esistenti.
+5. Seleziona **Commit changes**.
 
-Il sito sara disponibile all'indirizzo:
+GitHub Pages aggiornerà automaticamente il sito dopo il commit.
 
-`https://d-scantamburlo.github.io/farmaco-scan-site/`
+## File principali
+
+- `index.html`: contenuti e struttura della pagina.
+- `style.css`: grafica responsive per desktop e smartphone.
+- `favicon.svg`: icona del browser.
+- `assets/logo.svg`: logo usato nelle diverse sezioni.
+- `assets/screenshots/home.svg`: anteprima della home.
+- `assets/screenshots/ricerca.svg`: anteprima dei risultati.
+- `assets/screenshots/foglietto.svg`: anteprima del foglietto illustrativo.
 
 ## Screenshot reali
 
-La pagina contiene tre riquadri segnaposto. Quando hai gli screenshot, caricali nella cartella:
+Le tre immagini incluse sono anteprime grafiche già utilizzabili. Quando vuoi sostituirle con screenshot reali dell'app, puoi mantenere la stessa struttura e aggiornare i riferimenti nel file `index.html`.
 
-`assets/screenshots/`
-
-Poi sostituiremo i riquadri presenti in `index.html` con le immagini vere.
-
-## Link gia configurati
+## Link configurati
 
 - Google Play
 - App Store

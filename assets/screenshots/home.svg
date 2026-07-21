@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" role="img" aria-labelledby="title">
+  <title id="title">Schermata iniziale di Farmaco Scan</title>
+  <rect width="390" height="844" rx="42" fill="#f8fbf9"/>
+  <rect width="390" height="48" rx="42" fill="#ffffff"/>
+  <text x="26" y="31" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#17201b">09:41</text>
+  <rect x="158" y="10" width="74" height="22" rx="11" fill="#111813"/>
+  <g transform="translate(145 82)">
+    <rect width="100" height="100" rx="28" fill="#17834a"/>
+    <path d="M43 24h14v19h19v14H57v19H43V57H24V43h19z" fill="#fff"/>
+    <path d="M14 37V23a9 9 0 0 1 9-9h14M63 14h14a9 9 0 0 1 9 9v14M86 63v14a9 9 0 0 1-9 9H63M37 86H23a9 9 0 0 1-9-9V63" fill="none" stroke="#bfe8d0" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="195" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="29" font-weight="800" fill="#17201b">Farmaco Scan</text>
+  <text x="195" y="252" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#5d6961">Come vuoi cercare il medicinale?</text>
+  <g transform="translate(28 292)">
+    <rect width="334" height="112" rx="22" fill="#fff" stroke="#dce7df"/>
+    <circle cx="50" cy="56" r="28" fill="#eaf7f0"/>
+    <text x="50" y="64" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" font-weight="800" fill="#17834a">Aa</text>
+    <text x="92" y="47" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#17201b">Ricerca per nome</text>
+    <text x="92" y="72" font-family="Arial,sans-serif" font-size="13" fill="#5d6961">Digita il nome del farmaco</text>
+  </g>
+  <g transform="translate(28 424)">
+    <rect width="334" height="112" rx="22" fill="#fff" stroke="#dce7df"/>
+    <circle cx="50" cy="56" r="28" fill="#eaf7f0"/>
+    <rect x="37" y="43" width="26" height="21" rx="4" fill="none" stroke="#17834a" stroke-width="3"/>
+    <circle cx="50" cy="53" r="5" fill="none" stroke="#17834a" stroke-width="3"/>
+    <text x="92" y="47" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#17201b">Foto della confezione</text>
+    <text x="92" y="72" font-family="Arial,sans-serif" font-size="13" fill="#5d6961">Riconosci il medicinale dalla scatola</text>
+  </g>
+  <g transform="translate(28 556)">
+    <rect width="334" height="112" rx="22" fill="#fff" stroke="#dce7df"/>
+    <circle cx="50" cy="56" r="28" fill="#eaf7f0"/>
+    <path d="M39 43v26M45 43v26M51 43v26M58 43v26M63 43v26" stroke="#17834a" stroke-width="3"/>
+    <text x="92" y="47" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#17201b">Scansione del codice</text>
+    <text x="92" y="72" font-family="Arial,sans-serif" font-size="13" fill="#5d6961">Inquadra il codice sul retro</text>
+  </g>
+  <rect x="28" y="708" width="334" height="72" rx="18" fill="#eaf7f0"/>
+  <text x="195" y="737" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#0f5d35">Consulta le informazioni del</text>
+  <text x="195" y="759" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="800" fill="#0f5d35">foglietto illustrativo</text>
+</svg>

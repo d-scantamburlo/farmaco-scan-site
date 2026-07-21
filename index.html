@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Farmaco Scan ti aiuta a cercare rapidamente informazioni sui medicinali tramite nome, foto della confezione o codice a barre.">
+  <meta name="description" content="Con Farmaco Scan cerchi un medicinale tramite nome, foto della confezione o codice e consulti le informazioni disponibili nel relativo foglietto illustrativo.">
   <meta name="theme-color" content="#17834a">
-  <title>Farmaco Scan</title>
+  <meta property="og:title" content="Farmaco Scan">
+  <meta property="og:description" content="Trova un medicinale e consulta in modo semplice le informazioni disponibili nel foglietto illustrativo.">
+  <title>Farmaco Scan | Il foglietto illustrativo, più facile da consultare</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -13,13 +15,13 @@
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="#top" aria-label="Farmaco Scan - Home">
-        <span class="brand-mark" aria-hidden="true">+</span>
-        <span>Farmaco Scan</span>
+        <img src="assets/logo.svg" alt="Farmaco Scan" width="210" height="56">
       </a>
       <nav aria-label="Navigazione principale">
-        <a href="#funzioni">Funzioni</a>
-        <a href="#come-funziona">Come funziona</a>
-        <a href="#download">Scarica</a>
+        <a href="#funzioni">Come cercare</a>
+        <a href="#foglietto">Foglietto illustrativo</a>
+        <a href="#schermate">Schermate</a>
+        <a class="nav-download" href="#download">Scarica</a>
       </nav>
     </div>
   </header>
@@ -28,17 +30,26 @@
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <span class="eyebrow">Informazioni sui medicinali, in pochi secondi</span>
-          <h1>Cerca un farmaco con il nome, una foto o il codice a barre.</h1>
+          <div class="hero-logo-lockup">
+            <img src="assets/logo.svg" alt="" aria-hidden="true">
+          </div>
+          <span class="eyebrow">Il foglietto illustrativo, più facile da consultare</span>
+          <h1>Trova il medicinale. Consulta le informazioni del foglietto illustrativo.</h1>
           <p class="lead">
-            Farmaco Scan è un'app semplice e immediata che ti aiuta a trovare le informazioni disponibili su un medicinale direttamente dal tuo smartphone.
+            Cerca un farmaco digitando il nome, fotografando la confezione oppure scansionando il codice presente sul retro. Farmaco Scan ti aiuta poi a consultare in modo semplice le informazioni disponibili nel relativo foglietto illustrativo.
           </p>
+
+          <div class="source-pill">
+            <span class="mini-logo" aria-hidden="true">+</span>
+            <span>Le informazioni mostrate provengono dal foglietto illustrativo disponibile per il medicinale selezionato.</span>
+          </div>
+
           <div class="store-actions" id="download">
-            <a class="store-button" href="https://play.google.com/store/apps/details?id=com.dsinnovation.farmacoscan" target="_blank" rel="noopener noreferrer">
+            <a class="store-button" href="https://play.google.com/store/apps/details?id=com.dsinnovation.farmacoscan" target="_blank" rel="noopener noreferrer" aria-label="Scarica Farmaco Scan da Google Play">
               <span class="store-small">Scarica da</span>
               <strong>Google Play</strong>
             </a>
-            <a class="store-button secondary" href="https://apps.apple.com/app/id6776670482" target="_blank" rel="noopener noreferrer">
+            <a class="store-button secondary" href="https://apps.apple.com/app/id6776670482" target="_blank" rel="noopener noreferrer" aria-label="Scarica Farmaco Scan da App Store">
               <span class="store-small">Disponibile su</span>
               <strong>App Store</strong>
             </a>
@@ -46,47 +57,91 @@
           <p class="availability">Disponibile per Android e iPhone.</p>
         </div>
 
-        <div class="phone-card" aria-label="Anteprima dell'app Farmaco Scan">
+        <div class="hero-visual" aria-label="Schermata iniziale di Farmaco Scan">
+          <div class="floating-logo floating-logo-one" aria-hidden="true">+</div>
+          <div class="floating-logo floating-logo-two" aria-hidden="true">+</div>
           <div class="phone-frame">
-            <div class="phone-notch"></div>
-            <div class="app-preview">
-              <div class="preview-logo">+</div>
-              <h2>Farmaco Scan</h2>
-              <p>Come vuoi cercare il medicinale?</p>
-              <div class="preview-action">Ricerca per nome</div>
-              <div class="preview-action">Foto della confezione</div>
-              <div class="preview-action">Scansione codice</div>
+            <div class="phone-speaker"></div>
+            <img src="assets/screenshots/home.svg" alt="Schermata iniziale dell'app Farmaco Scan con le tre modalità di ricerca">
+          </div>
+          <div class="hero-caption">
+            <span class="caption-logo" aria-hidden="true">+</span>
+            <div>
+              <strong>Tre modi per trovare il farmaco</strong>
+              <small>Nome, foto della scatola o codice sul retro</small>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <section class="source-band" aria-label="Origine delle informazioni">
+      <div class="container source-band-content">
+        <img src="assets/logo.svg" alt="Farmaco Scan" width="190" height="51">
+        <p><strong>Il punto centrale dell'app è il foglietto illustrativo:</strong> dopo aver identificato il medicinale, puoi consultare le informazioni disponibili organizzate in modo più immediato.</p>
+      </div>
+    </section>
+
     <section class="section" id="funzioni">
       <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow">Tre modalità di ricerca</span>
-          <h2>Scegli il metodo più comodo per te</h2>
+        <div class="section-heading centered">
+          <span class="eyebrow">Trova il medicinale</span>
+          <h2>Scegli il metodo più comodo</h2>
+          <p>In tutti e tre i casi l'obiettivo è lo stesso: individuare correttamente il farmaco e aprire le informazioni disponibili nel suo foglietto illustrativo.</p>
         </div>
 
         <div class="feature-grid">
           <article class="feature-card">
+            <div class="card-brand-mark" aria-hidden="true">+</div>
             <div class="feature-icon" aria-hidden="true">Aa</div>
             <h3>Ricerca per nome</h3>
-            <p>Inserisci manualmente il nome del farmaco e consulta rapidamente i risultati disponibili.</p>
+            <p>Scrivi il nome del medicinale, seleziona il risultato corretto e consulta il relativo foglietto illustrativo.</p>
           </article>
 
           <article class="feature-card">
-            <div class="feature-icon" aria-hidden="true">▣</div>
+            <div class="card-brand-mark" aria-hidden="true">+</div>
+            <div class="feature-icon camera-icon" aria-hidden="true"></div>
             <h3>Foto della confezione</h3>
-            <p>Scatta una foto della parte frontale della scatola e lascia che l'app riconosca il nome del medicinale.</p>
+            <p>Fotografa la parte frontale della scatola: l'app prova a riconoscere il nome e a trovare le informazioni del foglietto illustrativo.</p>
           </article>
 
           <article class="feature-card">
-            <div class="feature-icon" aria-hidden="true">▥</div>
+            <div class="card-brand-mark" aria-hidden="true">+</div>
+            <div class="feature-icon barcode-icon" aria-hidden="true"></div>
             <h3>Scansione del codice</h3>
-            <p>Inquadra il codice presente sul retro della confezione per avviare la ricerca del farmaco.</p>
+            <p>Inquadra il codice presente sul retro della confezione per identificare il medicinale e accedere alle informazioni disponibili.</p>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section leaflet-section" id="foglietto">
+      <div class="container leaflet-grid">
+        <div class="leaflet-copy">
+          <div class="section-logo">
+            <img src="assets/logo.svg" alt="Farmaco Scan">
+          </div>
+          <span class="eyebrow">Informazioni dal foglietto illustrativo</span>
+          <h2>Le sezioni principali, ordinate e più semplici da raggiungere</h2>
+          <p class="leaflet-lead">
+            Una volta selezionato il medicinale, Farmaco Scan rende più immediata la consultazione delle informazioni disponibili nel foglietto illustrativo.
+          </p>
+
+          <div class="leaflet-topics">
+            <div><span>1</span><p><strong>Che cos'è e a cosa serve</strong><small>Le indicazioni disponibili per il medicinale.</small></p></div>
+            <div><span>2</span><p><strong>Avvertenze e precauzioni</strong><small>Le informazioni da conoscere prima dell'uso.</small></p></div>
+            <div><span>3</span><p><strong>Uso ed effetti indesiderati</strong><small>Le sezioni previste dal foglietto illustrativo, quando disponibili.</small></p></div>
+            <div><span>4</span><p><strong>Conservazione e contenuto</strong><small>Ulteriori informazioni riportate nel foglietto.</small></p></div>
+          </div>
+        </div>
+
+        <div class="leaflet-phone-wrap">
+          <div class="logo-orbit orbit-one" aria-hidden="true">+</div>
+          <div class="logo-orbit orbit-two" aria-hidden="true">+</div>
+          <div class="phone-frame leaflet-phone">
+            <div class="phone-speaker"></div>
+            <img src="assets/screenshots/foglietto.svg" alt="Esempio delle sezioni del foglietto illustrativo visualizzate in Farmaco Scan">
+          </div>
         </div>
       </div>
     </section>
@@ -94,10 +149,11 @@
     <section class="section muted" id="come-funziona">
       <div class="container split-section">
         <div>
+          <div class="small-brand-tile" aria-hidden="true">+</div>
           <span class="eyebrow">Come funziona</span>
-          <h2>Informazioni chiare, senza passaggi complicati</h2>
+          <h2>Dal riconoscimento al foglietto in pochi passaggi</h2>
           <p>
-            Apri l'app, scegli il tipo di ricerca e consulta le informazioni disponibili relative al medicinale selezionato.
+            Farmaco Scan riduce i passaggi necessari per trovare il medicinale e raggiungere le informazioni disponibili nel relativo foglietto illustrativo.
           </p>
         </div>
 
@@ -106,21 +162,21 @@
             <span>1</span>
             <div>
               <strong>Scegli la modalità di ricerca</strong>
-              <p>Nome, foto della confezione oppure codice a barre.</p>
+              <p>Usa il nome, una foto della confezione oppure il codice sul retro.</p>
             </div>
           </li>
           <li>
             <span>2</span>
             <div>
-              <strong>Identifica il medicinale</strong>
-              <p>Controlla che il farmaco individuato sia quello corretto.</p>
+              <strong>Verifica il medicinale individuato</strong>
+              <p>Controlla nome, dosaggio e forma farmaceutica prima di proseguire.</p>
             </div>
           </li>
           <li>
             <span>3</span>
             <div>
-              <strong>Consulta le informazioni</strong>
-              <p>Accedi ai dati disponibili in modo semplice e ordinato.</p>
+              <strong>Apri il foglietto illustrativo</strong>
+              <p>Consulta le informazioni disponibili, suddivise nelle relative sezioni.</p>
             </div>
           </li>
         </ol>
@@ -129,36 +185,57 @@
 
     <section class="section screenshots-section" id="schermate">
       <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow">Anteprima</span>
-          <h2>Un'interfaccia pensata per essere immediata</h2>
-          <p>Aggiungi qui gli screenshot reali dell'app quando vuoi.</p>
+        <div class="section-heading centered screenshots-heading">
+          <div class="section-logo compact-logo">
+            <img src="assets/logo.svg" alt="Farmaco Scan">
+          </div>
+          <span class="eyebrow">Dentro l'app</span>
+          <h2>Dalla ricerca alla consultazione del foglietto illustrativo</h2>
+          <p>Le schermate mostrano il percorso principale: scegli come cercare, identifica il farmaco e apri le informazioni disponibili.</p>
         </div>
 
         <div class="screenshot-grid">
-          <div class="screenshot-placeholder">
-            <span>Screenshot 1</span>
-            <small>Home dell'app</small>
-          </div>
-          <div class="screenshot-placeholder">
-            <span>Screenshot 2</span>
-            <small>Ricerca del farmaco</small>
-          </div>
-          <div class="screenshot-placeholder">
-            <span>Screenshot 3</span>
-            <small>Risultati e informazioni</small>
-          </div>
+          <figure class="screenshot-card">
+            <div class="screenshot-phone">
+              <img src="assets/screenshots/home.svg" alt="Home di Farmaco Scan">
+            </div>
+            <figcaption>
+              <span>01</span>
+              <div><strong>Scegli come cercare</strong><small>Nome, foto della confezione o codice.</small></div>
+            </figcaption>
+          </figure>
+
+          <figure class="screenshot-card featured-screen">
+            <div class="screen-brand-ribbon"><span>+</span> Farmaco Scan</div>
+            <div class="screenshot-phone">
+              <img src="assets/screenshots/ricerca.svg" alt="Risultati della ricerca in Farmaco Scan">
+            </div>
+            <figcaption>
+              <span>02</span>
+              <div><strong>Seleziona il medicinale</strong><small>Controlla che il risultato sia quello corretto.</small></div>
+            </figcaption>
+          </figure>
+
+          <figure class="screenshot-card">
+            <div class="screenshot-phone">
+              <img src="assets/screenshots/foglietto.svg" alt="Foglietto illustrativo consultabile in Farmaco Scan">
+            </div>
+            <figcaption>
+              <span>03</span>
+              <div><strong>Consulta il foglietto</strong><small>Accedi rapidamente alle sezioni disponibili.</small></div>
+            </figcaption>
+          </figure>
         </div>
       </div>
     </section>
 
     <section class="section disclaimer-section">
       <div class="container disclaimer-card">
-        <div class="disclaimer-icon" aria-hidden="true">i</div>
+        <div class="disclaimer-brand" aria-hidden="true">+</div>
         <div>
           <h2>Avvertenza importante</h2>
           <p>
-            Farmaco Scan ha finalità esclusivamente informative e non sostituisce il parere del medico, del farmacista o di altri professionisti sanitari. Prima di assumere un medicinale, consulta sempre il foglio illustrativo e segui le indicazioni di un professionista.
+            Farmaco Scan ha finalità esclusivamente informative. Non sostituisce il foglietto illustrativo allegato alla confezione, né il parere del medico, del farmacista o di altri professionisti sanitari. Prima di assumere un medicinale, verifica sempre il prodotto selezionato e segui le indicazioni ricevute da un professionista.
           </p>
         </div>
       </div>
@@ -166,9 +243,10 @@
 
     <section class="cta-section">
       <div class="container cta-card">
-        <div>
+        <div class="cta-copy">
+          <div class="cta-logo-card"><img src="assets/logo.svg" alt="Farmaco Scan"></div>
           <span class="eyebrow light">Scarica l'app</span>
-          <h2>Trova le informazioni sui medicinali direttamente dal tuo smartphone.</h2>
+          <h2>Trova il medicinale e consulta le informazioni del foglietto illustrativo direttamente dal tuo smartphone.</h2>
         </div>
         <div class="store-actions">
           <a class="store-button light-button" href="https://play.google.com/store/apps/details?id=com.dsinnovation.farmacoscan" target="_blank" rel="noopener noreferrer">
@@ -187,14 +265,14 @@
   <footer class="site-footer">
     <div class="container footer-wrap">
       <div>
-        <div class="brand footer-brand">
-          <span class="brand-mark" aria-hidden="true">+</span>
-          <span>Farmaco Scan</span>
-        </div>
-        <p>Ricerca semplice e veloce delle informazioni disponibili sui medicinali.</p>
+        <a class="footer-logo" href="#top" aria-label="Farmaco Scan - Torna in alto">
+          <img src="assets/logo.svg" alt="Farmaco Scan">
+        </a>
+        <p>Ricerca semplice del medicinale e consultazione delle informazioni disponibili nel foglietto illustrativo.</p>
       </div>
       <div class="footer-links">
         <a href="https://d-scantamburlo.github.io/farmaco-scan-privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+        <a href="#foglietto">Foglietto illustrativo</a>
         <a href="#top">Torna in alto</a>
       </div>
     </div>
