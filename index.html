@@ -3,13 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Con Farmaco Scan cerchi un medicinale tramite nome, foto della confezione o codice e consulti le informazioni disponibili nel relativo foglietto illustrativo.">
+
+  <title>Farmaco Scan | Cerca farmaci e foglietti illustrativi</title>
+  <meta name="description" content="Cerca un farmaco per nome, foto della confezione o codice a barre e consulta facilmente le informazioni disponibili nel foglietto illustrativo.">
+  <meta name="author" content="SCN Technologies">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <meta name="theme-color" content="#17834a">
-  <meta property="og:title" content="Farmaco Scan">
-  <meta property="og:description" content="Trova un medicinale e consulta in modo semplice le informazioni disponibili nel foglietto illustrativo.">
-  <title>Farmaco Scan | Il foglietto illustrativo, più facile da consultare</title>
+  <meta name="apple-mobile-web-app-title" content="Farmaco Scan">
+  <meta name="apple-itunes-app" content="app-id=6776670482">
+
+  <link rel="canonical" href="https://d-scantamburlo.github.io/farmaco-scan-site/">
+  <link rel="alternate" hreflang="it-IT" href="https://d-scantamburlo.github.io/farmaco-scan-site/">
+  <link rel="alternate" hreflang="x-default" href="https://d-scantamburlo.github.io/farmaco-scan-site/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:site_name" content="Farmaco Scan">
+  <meta property="og:title" content="Farmaco Scan | Cerca farmaci e foglietti illustrativi">
+  <meta property="og:description" content="Cerca un medicinale tramite nome, foto della confezione o codice e consulta le informazioni disponibili nel foglietto illustrativo.">
+  <meta property="og:url" content="https://d-scantamburlo.github.io/farmaco-scan-site/">
+  <meta property="og:image" content="https://d-scantamburlo.github.io/farmaco-scan-site/assets/logo_Farmaco_Scan.png">
+  <meta property="og:image:alt" content="Logo di Farmaco Scan">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Farmaco Scan | Cerca farmaci e foglietti illustrativi">
+  <meta name="twitter:description" content="Cerca un medicinale e consulta in modo semplice le informazioni disponibili nel foglietto illustrativo.">
+  <meta name="twitter:image" content="https://d-scantamburlo.github.io/farmaco-scan-site/assets/logo_Farmaco_Scan.png">
+  <meta name="twitter:image:alt" content="Logo di Farmaco Scan">
+
   <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/logo_Farmaco_Scan.png">
+  <link rel="preload" href="assets/screenshots/home.svg" as="image" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://d-scantamburlo.github.io/farmaco-scan-site/#website",
+        "url": "https://d-scantamburlo.github.io/farmaco-scan-site/",
+        "name": "Farmaco Scan",
+        "description": "Sito ufficiale di Farmaco Scan, app per cercare medicinali e consultare le informazioni disponibili nel foglietto illustrativo.",
+        "inLanguage": "it-IT",
+        "publisher": {
+          "@id": "https://d-scantamburlo.github.io/farmaco-scan-site/#organization"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://d-scantamburlo.github.io/farmaco-scan-site/#organization",
+        "name": "SCN Technologies",
+        "url": "https://d-scantamburlo.github.io/farmaco-scan-site/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://d-scantamburlo.github.io/farmaco-scan-site/assets/logo_Farmaco_Scan.png"
+        }
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://d-scantamburlo.github.io/farmaco-scan-site/#app",
+        "name": "Farmaco Scan",
+        "url": "https://d-scantamburlo.github.io/farmaco-scan-site/",
+        "description": "App gratuita per cercare un medicinale tramite nome, foto della confezione o codice e consultare le informazioni disponibili nel relativo foglietto illustrativo.",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Android, iOS",
+        "inLanguage": "it-IT",
+        "isAccessibleForFree": true,
+        "image": "https://d-scantamburlo.github.io/farmaco-scan-site/assets/logo_Farmaco_Scan.png",
+        "publisher": {
+          "@id": "https://d-scantamburlo.github.io/farmaco-scan-site/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR"
+        },
+        "downloadUrl": [
+          "https://play.google.com/store/apps/details?id=com.dsinnovation.farmacoscan",
+          "https://apps.apple.com/app/id6776670482"
+        ],
+        "sameAs": [
+          "https://play.google.com/store/apps/details?id=com.dsinnovation.farmacoscan",
+          "https://apps.apple.com/app/id6776670482"
+        ],
+        "featureList": [
+          "Ricerca del medicinale per nome",
+          "Ricerca tramite foto della confezione",
+          "Ricerca tramite scansione del codice",
+          "Consultazione delle informazioni disponibili nel foglietto illustrativo"
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header class="site-header">
@@ -65,7 +153,7 @@
           <img class="floating-brand floating-brand-two" src="assets/logo_Farmaco_Scan.png" alt="" aria-hidden="true">
           <div class="phone-frame">
             <div class="phone-speaker"></div>
-            <img src="assets/screenshots/home.svg" alt="Schermata iniziale dell'app Farmaco Scan con le tre modalità di ricerca">
+            <img src="assets/screenshots/home.svg" alt="Schermata iniziale dell'app Farmaco Scan con ricerca per nome, foto e codice" fetchpriority="high" decoding="async">
           </div>
           <div class="hero-caption">
             <img class="caption-brand-logo" src="assets/logo_Farmaco_Scan.png" alt="" aria-hidden="true">
@@ -147,7 +235,7 @@
           <img class="floating-brand orbit-brand-two" src="assets/logo_Farmaco_Scan.png" alt="" aria-hidden="true">
           <div class="phone-frame leaflet-phone">
             <div class="phone-speaker"></div>
-            <img src="assets/screenshots/foglietto.svg" alt="Esempio delle sezioni del foglietto illustrativo visualizzate in Farmaco Scan">
+            <img src="assets/screenshots/foglietto.svg" alt="Sezioni del foglietto illustrativo visualizzate nell'app Farmaco Scan" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -168,7 +256,7 @@
         <div class="screenshot-grid">
           <figure class="screenshot-card">
             <div class="screenshot-phone">
-              <img src="assets/screenshots/home.svg" alt="Home di Farmaco Scan">
+              <img src="assets/screenshots/home.svg" alt="Schermata Home di Farmaco Scan con le modalità di ricerca" loading="lazy" decoding="async">
             </div>
             <figcaption>
               <span>01</span>
@@ -179,7 +267,7 @@
           <figure class="screenshot-card featured-screen">
             <div class="screen-brand-ribbon"><img src="assets/logo_Farmaco_Scan.png" alt="" aria-hidden="true"> Farmaco Scan</div>
             <div class="screenshot-phone">
-              <img src="assets/screenshots/ricerca.svg" alt="Risultati della ricerca in Farmaco Scan">
+              <img src="assets/screenshots/ricerca.svg" alt="Elenco dei risultati della ricerca di un medicinale in Farmaco Scan" loading="lazy" decoding="async">
             </div>
             <figcaption>
               <span>02</span>
@@ -189,7 +277,7 @@
 
           <figure class="screenshot-card">
             <div class="screenshot-phone">
-              <img src="assets/screenshots/foglietto.svg" alt="Foglietto illustrativo consultabile in Farmaco Scan">
+              <img src="assets/screenshots/foglietto.svg" alt="Consultazione del foglietto illustrativo nell'app Farmaco Scan" loading="lazy" decoding="async">
             </div>
             <figcaption>
               <span>03</span>
