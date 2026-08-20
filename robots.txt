@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://d-scantamburlo.github.io/farmaco-scan-site/sitemap.xml
+Sitemap: https://farmacoscan.it/sitemap.xml
